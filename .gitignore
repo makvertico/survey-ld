@@ -1,0 +1,30 @@
+# Environment — never commit secrets
+.env
+.env.local
+.env.production
+.env.staging
+server/.env
+frontend/.env
+frontend/.env.local
+
+# Dependencies
+node_modules/
+server/node_modules/
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+frontend/build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+

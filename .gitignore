@@ -1,11 +1,15 @@
 # Environment — never commit secrets
 .env
+.env.example
 .env.local
 .env.production
 .env.staging
 server/.env
+server/.env.example
 frontend/.env
 frontend/.env.local
+.claude
+frontend/.env.example
 
 # Dependencies
 node_modules/
